@@ -1,0 +1,157 @@
+@media (min-width: 1201px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+  #self {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  #self {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+
+  #self {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+
+  #self {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+    /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  #self {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 599px) {
+  /* For a screen < 540px, this CSS will be read */
+.container {
+  width: 250px;
+}
+
+#self {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+}
+
+body {
+  background-color: #F6F4EB;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+}
+
+h1, h2, h3 {
+  font-size: medium;
+  font-weight: 400;
+  color: 6528F7;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 20px;
+}
+
+h3 {
+  color: #4682A9;
+  font-weight: 600;
+}
+
+#self {
+ border-radius: 50%;
+ box-shadow: 4px 4px lightgrey;
+ align-self: auto;
+}
+
+a {
+  color: blueviolet;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A076F9;
+}
+
+button {
+  color: #068FFF;
+  background-color: #FBA1B7;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #F6F4EB;
+}
+
+.list-inline {
+  background-color: #EEEDED;
+  text-align: center;
+  margin: 5px 5px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 4px 4px lightgrey;
+  padding-left: 0px
+}
+
+.container {
+  background-color: #FAF0D7;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.about {
+  margin: 5px 5px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 4px 4px lightgrey;
+}
